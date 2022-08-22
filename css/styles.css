@@ -894,6 +894,7 @@ textarea::placeholder {
     border-color: var(--accent-color);
 }
 .modal-link {
+    margin-left: 4px;
     color: var(--accent-color);
     text-decoration: underline;
 }
