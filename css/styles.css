@@ -1,11 +1,5 @@
 
-h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
-}
-ul {
-    margin: 0;
-    padding-left: 0;
-}
+
 body {
     color: var(--main-color);
     font-family:  'Roboto', sans-serif;
@@ -28,9 +22,7 @@ body {
 .list {
     list-style: none;
 }
-.btn {
-    cursor: pointer;
-}
+
 .main-titel {
     font-weight: 700;
     font-size: 36px;
