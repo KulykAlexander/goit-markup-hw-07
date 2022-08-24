@@ -1,41 +1,9 @@
 
 
-body {
-    color: var(--main-color);
-    font-family:  'Roboto', sans-serif;
-}
 
-.section {
-    
-    margin: 0 auto;
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
-.link {
-    text-decoration: none;
-}
-.list {
-    list-style: none;
-}
 
-.main-titel {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
 
-    color: var(--main-color);
-}
-.titel {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    
-    color: var(--main-color);
-}
 .text {
     font-size: 14px;
     line-height: 1.71;
