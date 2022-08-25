@@ -6,7 +6,11 @@
     border-bottom: 1px solid #ECECEC;
     background-color: #FFFFFF;
 }
-
+.header-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 .header-logo {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
@@ -29,12 +33,7 @@
     color: var(--accent-color);
     text-decoration: underline;
 }
-.header-nav {
-    
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
+
 .main-nav {
     display: flex;
 }

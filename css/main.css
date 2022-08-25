@@ -311,6 +311,12 @@ textarea::placeholder {
   background-color: #FFFFFF;
 }
 
+.header-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .header-logo {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
@@ -331,12 +337,6 @@ textarea::placeholder {
 .header-logo:focus {
   color: var(--accent-color);
   text-decoration: underline;
-}
-
-.header-nav {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
 }
 
 .main-nav {
@@ -426,7 +426,7 @@ textarea::placeholder {
   background-size: cover;
 }
 
-.hero-titel {
+.hero .hero-titel {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -439,7 +439,7 @@ textarea::placeholder {
   color: var(--hero-text);
 }
 
-.hero-btn {
+.hero .hero-btn {
   display: inline-block;
   font-family: inherit;
   font-weight: 700;
@@ -455,8 +455,7 @@ textarea::placeholder {
   border-radius: 4px;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.hero .hero-btn:hover, .hero .hero-btn:focus {
   text-decoration: underline var(--accent-color);
 }
 

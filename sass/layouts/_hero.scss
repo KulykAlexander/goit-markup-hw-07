@@ -13,9 +13,7 @@
     background-position: center;
     background-size: cover;
     
-    
-}
-.hero-titel {
+    .hero-titel {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -36,8 +34,6 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    
-    
     letter-spacing: 0.06em;
 
     color: var(--hero-text);
@@ -46,13 +42,13 @@
     min-width: 216px;
     margin: 0 auto;
     
-
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    &:hover,
+    &:focus {
+    text-decoration: underline var(--accent-color);
+    }
+}
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
-    text-decoration: underline var(--accent-color);
-}
