@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-}
 .specialty-item {
     width: 270px;
 }
@@ -14,13 +13,14 @@
     background-color: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
+    
 }
 .specialty-titel {
     width: 270px;
     text-transform: uppercase;
-
     margin-bottom: 10px;
 }
 .specialty-text {
     width: 270px;
+}
 }

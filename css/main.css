@@ -462,11 +462,11 @@ textarea::placeholder {
   align-items: flex-start;
 }
 
-.specialty-item {
+.specialty-list .specialty-item {
   width: 270px;
 }
 
-.specialty-icon {
+.specialty-list .specialty-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -476,13 +476,13 @@ textarea::placeholder {
   margin-bottom: 30px;
 }
 
-.specialty-titel {
+.specialty-list .specialty-titel {
   width: 270px;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
-.specialty-text {
+.specialty-list .specialty-text {
   width: 270px;
 }
 
