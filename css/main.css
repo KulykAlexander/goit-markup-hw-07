@@ -608,7 +608,7 @@ textarea::placeholder {
   gap: 30px;
 }
 
-.client-link {
+.client-list .client-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -620,12 +620,11 @@ textarea::placeholder {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-icon {
+.client-list .client-link .client-icon {
   fill: currentColor;
 }
 
-.client-link:hover,
-.client-link:focus {
+.client-list .client-link:hover, .client-list .client-link:focus {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
