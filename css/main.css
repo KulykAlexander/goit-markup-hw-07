@@ -542,7 +542,7 @@ textarea::placeholder {
   justify-content: space-between;
 }
 
-.team-item {
+.team-list .team-item {
   display: block;
   background-color: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -554,7 +554,7 @@ textarea::placeholder {
   padding-bottom: 30px;
 }
 
-.team-titel {
+.team-div .team-titel {
   font-size: 16px;
   line-height: 1.19;
   min-width: 104px;
@@ -562,21 +562,21 @@ textarea::placeholder {
   margin-bottom: 10px;
 }
 
-.team-text {
+.team-div .team-text {
   font-size: 16px;
   line-height: 1.19;
   min-width: 76px;
   text-align: center;
 }
 
-.team-soc {
+.team-div .team-soc {
   margin-top: 16px;
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.soc-link {
+.team-div .team-soc .soc-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -587,13 +587,12 @@ textarea::placeholder {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.soc-link:hover,
-.soc-link:focus {
+.team-div .team-soc .soc-link:hover, .team-div .team-soc .soc-link:focus {
   color: #ffffff;
   background-color: var(--accent-color);
 }
 
-.team-soc-icon {
+.team-div .team-soc .soc-link .team-soc-icon {
   fill: currentColor;
 }
 
