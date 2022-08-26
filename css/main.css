@@ -841,7 +841,7 @@ textarea::placeholder {
   margin-bottom: 50px;
 }
 
-.example-btn {
+.buttons .example-btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -856,15 +856,14 @@ textarea::placeholder {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.example-btn:hover,
-.example-btn:focus {
+.buttons .example-btn:hover, .buttons .example-btn:focus {
   text-decoration: none;
   color: #ffffff;
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.example-btn:active {
+.buttons .example-btn:active {
   color: #ffffff;
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
