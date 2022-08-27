@@ -642,7 +642,11 @@ textarea::placeholder {
   gap: 70px;
 }
 
-.footer-logo {
+.footer-add {
+  margin: 0;
+}
+
+.footer-add .footer-logo {
   display: block;
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
@@ -654,20 +658,23 @@ textarea::placeholder {
   transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-logo span {
+.footer-add .footer-logo span {
   color: var(--accent-color);
 }
 
-.footer-logo:hover,
-.footer-logo:focus {
+.footer-add .footer-logo:hover, .footer-add .footer-logo:focus {
   text-decoration: underline var(--accent-color);
 }
 
-.address-list {
+.footer-add .address-list {
   min-width: 231px;
 }
 
-.address {
+.footer-add .address-list .addres-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-add .address-list .address {
   display: inline-block;
   font-style: normal;
   font-size: 14px;
@@ -677,16 +684,11 @@ textarea::placeholder {
   color: var(--footer-main-text);
 }
 
-.addres-item:not(:last-child) {
-  margin-bottom: 9px;
-}
-
-.address:hover,
-.address:focus {
+.footer-add .address-list .address:hover, .footer-add .address-list .address:focus {
   text-decoration: none;
 }
 
-.footer-cont {
+.footer-add .address-list .footer-cont {
   display: inline-block;
   font-style: normal;
   font-size: 14px;
@@ -696,8 +698,7 @@ textarea::placeholder {
   color: var(--footer-second-text);
 }
 
-.footer-cont:hover,
-.footer-cont:focus {
+.footer-add .address-list .footer-cont:hover, .footer-add .address-list .footer-cont:focus {
   text-decoration: none;
 }
 
@@ -705,10 +706,6 @@ textarea::placeholder {
   text-transform: uppercase;
   margin-bottom: 20px;
   color: var(--footer-main-text);
-}
-
-.footer-add {
-  margin: 0;
 }
 
 .footer-soc {
@@ -890,14 +887,14 @@ textarea::placeholder {
   transform: translateY(0);
 }
 
-.example-activ {
+.example-link .example-activ {
   position: relative;
   width: 370px;
   height: 294px;
   overflow: hidden;
 }
 
-.example-activ .activ-text {
+.example-link .example-activ .activ-text {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -912,21 +909,21 @@ textarea::placeholder {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.example-div {
+.example-link .example-div {
   border-right: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
   padding: 20px 24px;
 }
 
-.example-div .example-titel {
+.example-link .example-div .example-titel {
   font-size: 18px;
   line-height: 2;
   margin-bottom: 4px;
   letter-spacing: 0.06em;
 }
 
-.example-div .example-text {
+.example-link .example-div .example-text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;

@@ -11,32 +11,36 @@
     justify-content: space-between;
     align-items: baseline;
     gap: 70px;}
-
+.footer-add {
+    margin: 0;
 .footer-logo {
     display: block;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
     min-width: 145px;
-
     
     margin-bottom: 20px;
     letter-spacing: 0.03em;
     
     color: var(--footer-main-text);
     transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1);    
-}
-.footer-logo span {
+& span {
     color: var(--accent-color);
 }
 
-.footer-logo:hover,
-.footer-logo:focus {
+&:hover,
+&:focus {
     text-decoration: underline var(--accent-color);
 }
+}
+
 .address-list {
     
     min-width: 231px;
+.addres-item:not(:last-child) {
+    margin-bottom: 9px;
+    
 }
 .address {
     display: inline-block;
@@ -48,14 +52,10 @@
     letter-spacing: 0.03em;
 
     color: var(--footer-main-text);
-}
-.addres-item:not(:last-child) {
-    margin-bottom: 9px;
-    
-}
-.address:hover,
-.address:focus {
+&:hover,
+&:focus {
     text-decoration: none;
+}
 }
 .footer-cont {
     display: inline-block;
@@ -67,21 +67,21 @@
     letter-spacing: 0.03em;
 
     color: var(--footer-second-text);
-}
-.footer-cont:hover,
-.footer-cont:focus {
-    
+&:hover,
+&:focus {
     text-decoration: none;
 }
+}
+}
+}
+
 .footer-titel {
     text-transform: uppercase;
     margin-bottom: 20px;
 
     color: var(--footer-main-text);
 }
-.footer-add {
-    margin: 0;
-}
+
 .footer-soc {
     
     max-width: 206px;
