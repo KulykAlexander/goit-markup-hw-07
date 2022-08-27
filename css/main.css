@@ -133,14 +133,13 @@ body {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-icon {
-  fill: currentColor;
-}
-
-.modal-close:hover,
-.modal-close:focus {
+.modal-close:hover, .modal-close:focus {
   color: var(--accent-color);
   border: 1px solid var var(--accent-color);
+}
+
+.close-icon {
+  fill: currentColor;
 }
 
 .is-hidden {
@@ -195,19 +194,19 @@ body {
   color: var(--second-color);
 }
 
-input:focus {
+.modal-form-field input:focus {
   outline-color: var(--accent-color);
 }
 
-input:focus + .modal-icon {
+.modal-form-field input:focus + .modal-icon {
   fill: var(--accent-color);
 }
 
-.modal-input-icon {
+.modal-form-field .modal-input-icon {
   position: relative;
 }
 
-.modal-icon {
+.modal-form-field .modal-icon {
   position: absolute;
   left: 14px;
   top: 50%;
@@ -236,13 +235,13 @@ textarea::placeholder {
   margin-bottom: 30px;
 }
 
-.check-text {
+.modal-form-check .check-text {
   display: flex;
   align-items: center;
   position: relative;
 }
 
-.check-text span {
+.modal-form-check .check-text span {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -296,9 +295,7 @@ textarea::placeholder {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-btn:hover,
-.modal-form-btn:focus,
-.modal-form-btn:active {
+.modal-form-btn:hover, .modal-form-btn:focus, .modal-form-btn:active {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
